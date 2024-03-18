@@ -9,6 +9,7 @@ const url = process.env.MONGODB_URI;
 const dbName = 'myProject';
 
  const uri = 'mongodb://localhost:27017'; // replace with your MongoDB container IP and database
+// const uri = 'mongodb://my-mongodb';
   
   let db;
   let client = new MongoClient(uri);
